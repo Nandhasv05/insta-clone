@@ -1,0 +1,140 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0;
+}
+#insta-logo{
+    width: 200px;
+    margin: 20px 0;
+}
+.signUpForm{
+   height: 90vh;
+   width:378px;
+    /* background-color: aqua; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    border: 1px grey solid;
+}
+
+.signUpForm #firstp{
+    font-size: 15px;
+    font-weight: 600;
+    font-family: sans-serif;
+    text-align: center;
+    margin-top: 0%;
+    width:250px;
+}
+
+.signUpForm .withfacebook{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    height: 36px;
+    width: 280px;
+    background-color: rgb(40, 40, 192);
+    border-radius: 7px;
+}
+
+h1{
+     font-family: "Nova Round", system-ui;
+}
+
+.signUpForm .withfacebook i{
+    color: white;
+    font-size: 20px;
+    margin-right: 20px;
+}
+
+.signUpForm .withfacebook button{
+    border: none;
+    color: white;
+    font-size: 15px;
+    font-weight: 600;
+    outline: none   ;
+    background-color:rgb(40, 40, 192);
+}
+
+.signUpForm .inputs{
+    display: flex;
+    flex-direction: column;   
+}
+
+.signUpForm .inputs input{
+    height: 38px;
+    width: 270px;
+    padding: 0 0 0 10px;
+    border-radius: 6px;
+    margin: 5px 0;
+    border: 1px grey solid;
+    outline: none;
+}
+
+.signUpForm .terms{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center ;
+}
+
+.signUpForm .terms p{
+    text-align: center;
+    width: 70%;
+    font-size: 13px;
+   margin: 0 0 5px 0;
+}
+
+.signUpForm #signUp{
+    height: 35px;
+    width: 250px;
+    border: none;
+    border-radius: 5px;
+    background-color: #1e8bbd;
+    color: white;
+    font-weight: 800;
+    font-family: sans-serif;
+}
+
+.haveAc{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px grey solid;
+    width: fit-content;
+    padding: 20px 110px;
+    margin: 10px 0;
+}
+
+.store{
+    display: flex;
+    padding: 0%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.store p{
+    font-weight: bold;
+    margin-bottom: -20px;
+}
+.store {
+    display: flex;
+    align-items: center;
+}
+
+#play {
+    margin-top:20px;
+    width: 190px;
+}
+
+#microsoft {
+    width: 190px;
+    margin-bottom: 10px;
+}
